@@ -1,0 +1,22 @@
+### Create a new
+POST localhost:8080/tasks
+Content-Type: application/json; charset=utf-8
+
+{
+"title":"test01"
+}
+
+### Get all tasks
+GET localhost:8080/tasks
+
+
+### Update a task
+PUT localhost:8080/tasks/2
+Content-Type: application/json; charset=utf-8
+
+{
+  "title":"changed"
+}
+
+### Delete a Task
+DELETE localhost:8080/tasks/3
